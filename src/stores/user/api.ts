@@ -1,5 +1,5 @@
-import { AxiosResponse } from 'axios'
 import request from 'helper/request'
+import { AxiosResponse } from 'axios'
 
 const UserApi = {
   getUserApi: (data: { webAppKey: string }): Promise<AxiosResponse> =>

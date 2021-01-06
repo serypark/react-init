@@ -1,5 +1,5 @@
-import { configureStore, ThunkAction, Action, getDefaultMiddleware } from '@reduxjs/toolkit'
 import logger from 'redux-logger'
+import { configureStore, ThunkAction, Action, getDefaultMiddleware } from '@reduxjs/toolkit'
 import userStore from './user/store'
 
 export const store = configureStore({
