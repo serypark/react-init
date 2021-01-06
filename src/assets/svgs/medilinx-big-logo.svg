@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199.445" height="38.102" viewBox="0 0 199.445 38.102">
+    <defs>
+        <style>
+            .mediliinx-big-logo-4{fill:#04285c}
+        </style>
+    </defs>
+    <g id="medilinx_logo" transform="translate(-36 -133.163)">
+        <g id="logo_medilinx" transform="translate(36 133.163)">
+            <g id="그룹_2344">
+                <path id="패스_1168" fill="#09387a" d="M35.491 30.422c11.211 0 20.332 8.011 20.332 17.86a16.6 16.6 0 0 1-4.664 11.387 7.22 7.22 0 0 0 1.921 6.822 1.191 1.191 0 0 1-.846 2.033 13.219 13.219 0 0 1-9.134-3.673 22.647 22.647 0 0 1-7.609 1.292C24.28 66.142 15 58.131 15 48.282s9.28-17.86 20.491-17.86z" transform="translate(-15 -30.422)"/>
+                <path id="패스_1169" fill="#18a8c5" d="M84.06 134c.488.206-7.208 8.523-9.508 6.324-2.011-1.923-6.932-9.778-6.114-10.823 0 0 .4-.752 1.754.505s5.95 6.906 13.868 3.994z" transform="translate(-59.554 -112.982)"/>
+                <path id="패스_1170" fill="#fff" d="M127.74 101.935a9.5 9.5 0 0 1-8.492 1.05c-.076-.1 6.925-3.048 12.7-8.132 5.784-5.1-1.666 5.36-4.208 7.082z" transform="translate(-102.064 -83.073)"/>
+            </g>
+            <g id="그룹_2345" transform="translate(53.533 8.715)">
+                <path id="패스_1171" d="M362.089 103.968h-5.137V93.6l-4.59 7.082v.031H349.5v-.031l-4.621-7.143.03 10.427h-5.137V83.3h3.8l7.356 11.035 7.331-11.035h3.83z" class="mediliinx-big-logo-4" transform="translate(-339.777 -83.297)"/>
+                <path id="패스_1172" d="M502.392 91.535h9.15v4.377h-9.15V99.5h10.488v4.469h-15.625V83.3h15.625v4.469h-10.488z" class="mediliinx-big-logo-4" transform="translate(-471.298 -83.297)"/>
+                <path id="패스_1173" d="M618.065 83.3c6.475 0 11.156 4.226 11.156 10.275 0 6.14-4.681 10.4-11.156 10.4h-8.329V83.3zm0 16.051a5.719 5.719 0 1 0 0-11.43h-3.192v11.43z" class="mediliinx-big-logo-4" transform="translate(-565.238 -83.297)"/>
+                <path id="패스_1174" d="M750.779 103.968h-5.137V83.3h5.137z" class="mediliinx-big-logo-4" transform="translate(-678.743 -83.297)"/>
+                <path id="패스_1175" d="M814.284 103.968h-15.351V83.3h5.137v16.138h10.214z" class="mediliinx-big-logo-4" transform="translate(-723.25 -83.297)"/>
+                <path id="패스_1176" d="M911.943 103.968h-5.137V83.3h5.137z" class="mediliinx-big-logo-4" transform="translate(-813.342 -83.297)"/>
+                <path id="패스_1177" d="M979.124 103.968h-3.982l-9.91-11.338v11.338H960.1V83.3h3.921l9.971 11.643V83.3h5.137z" class="mediliinx-big-logo-4" transform="translate(-857.847 -83.297)"/>
+                <path id="패스_1178" d="M1105.277 103.878l-3.751-6.661h-.067l-3.824 6.661h-6.978l6.941-10.2-6.792-10.265h7.556l3.481 6.318h.089l3.586-6.318h6.869l-6.784 9.652 7.2 10.808z" class="mediliinx-big-logo-4" transform="translate(-966.889 -83.397)"/>
+            </g>
+        </g>
+    </g>
+</svg>

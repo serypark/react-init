@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="download" width="38" height="38" viewBox="0 0 38 38">
+    <defs>
+        <style>
+            .intro-download-1{fill:none;stroke:#acacac;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="그룹_174" transform="translate(-257 -41)">
+        <path id="패스_139" d="M268 61v4a1.959 1.959 0 0 0 2 2h12a1.959 1.959 0 0 0 2-2v-4" class="intro-download-1"/>
+        <path id="패스_140" d="M281 58l-5 5-5-5" class="intro-download-1"/>
+        <path id="선_105" d="M0 11L0 0" class="intro-download-1" transform="translate(276 52)"/>
+    </g>
+    <g id="타원_4" fill="none" stroke="#acacac" stroke-width="2px">
+        <circle cx="19" cy="19" r="19" stroke="none"/>
+        <circle cx="19" cy="19" r="18"/>
+    </g>
+</svg>

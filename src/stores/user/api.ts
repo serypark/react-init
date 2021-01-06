@@ -1,0 +1,13 @@
+import { AxiosResponse } from 'axios'
+import request from 'helper/request'
+
+const UserApi = {
+  getUserApi: (data: { webAppKey: string }): Promise<AxiosResponse> =>
+    request({
+      url: '/v-noti-user',
+      method: 'post',
+      data
+    })
+}
+
+export default UserApi

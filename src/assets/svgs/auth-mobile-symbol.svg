@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="kcp_SMS" width="65" height="65" viewBox="0 0 65 65">
+    <defs>
+        <style>
+            .auth-mobile-symbol1{fill:none}.auth-mobile-symbol9{fill:#141f38}.auth-mobile-symbol8,.auth-mobile-symbol9{stroke:none}
+        </style>
+    </defs>
+    <path id="size" d="M0 0H65V65H0z" class="auth-mobile-symbol1"/>
+    <g id="phone" transform="translate(7.33 4.902)">
+        <g id="phone_line" fill="#d9e4e8">
+            <path d="M28.417 55.165H5.074C2.828 55.165 1 53.323 1 51.06V5.106C1 2.842 2.828 1 5.074 1h23.343c2.247 0 4.074 1.842 4.074 4.106v45.953c0 2.264-1.827 4.106-4.074 4.106z" class="auth-mobile-symbol8" transform="translate(8.385)"/>
+            <path d="M5.074 2C3.38 2 2 3.393 2 5.106v45.953c0 1.713 1.38 3.106 3.074 3.106h23.343c1.695 0 3.074-1.393 3.074-3.106V5.106C31.491 3.393 30.112 2 28.417 2H5.074m0-2h23.343c2.802 0 5.074 2.286 5.074 5.106v45.953c0 2.82-2.272 5.106-5.074 5.106H5.074C2.272 56.165 0 53.88 0 51.06V5.106C0 2.286 2.272 0 5.074 0z" class="auth-mobile-symbol9" transform="translate(8.385)"/>
+        </g>
+        <rect id="phone_body-1" width="11.519" height="4.189" fill="#141f38" rx="2.094" transform="translate(19.997 .333)"/>
+        <g id="phone_body-2" fill="none" stroke="#fff" stroke-width="0.5px" transform="translate(23.67 1.098)">
+            <ellipse cx="1.5" cy="1" class="auth-mobile-symbol8" rx="1.5" ry="1"/>
+            <ellipse cx="1.5" cy="1" class="auth-mobile-symbol1" rx="1.25" ry=".75"/>
+        </g>
+        <g id="phone_body-3" fill="#0143be" stroke="#141f38" transform="translate(20.67 42.098)">
+            <circle cx="4.5" cy="4.5" r="4.5" class="auth-mobile-symbol8"/>
+            <circle cx="4.5" cy="4.5" r="4" class="auth-mobile-symbol1"/>
+        </g>
+        <g id="pass" fill="#fff">
+            <path d="M49.263 13.66H1V1h48.263v12.66z" class="auth-mobile-symbol8" transform="translate(0 16.434)"/>
+            <path d="M2 2v10.66h46.263V2H2M0 0h50.263v14.66H0V0z" class="auth-mobile-symbol9" transform="translate(0 16.434)"/>
+        </g>
+        <text id="_" fill="#0143be" font-family="OpenSans-SemiBold, Open Sans" font-size="12px" font-weight="600" transform="translate(24.984 30.419)">
+            <tspan x="-19.723" y="0">******</tspan>
+        </text>
+    </g>
+</svg>

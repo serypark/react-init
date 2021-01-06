@@ -1,0 +1,172 @@
+@import 'styles/comm';
+
+$primary: #5c6bc0;
+$success: #8bc34a;
+$danger: #f44336;
+$warning: #ffb74d;
+$mainBgc: #03002e;
+$containerDimentions: 30px;
+$shapeDimentions: 10px;
+
+@mixin customTranslate($shape, $tx, $ty) {
+  @if $shape == 1 {
+    transform: translate($tx, $ty);
+  }
+
+  @else if $shape == 2 {
+    transform: translate(-$ty, $tx);
+  }
+
+  @else if $shape == 3 {
+    transform: translate($ty, -$tx);
+  }
+
+  @else if $shape == 4 {
+    transform: translate(-$tx, -$ty);
+  }
+}
+
+.loading-wrap {
+  @include page-init(#ffffff);
+
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: rgb(255, 255, 255, 0.7);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  .text {
+    color: grey;
+    font-weight: bold;
+    margin-top: 3.5vh;
+    text-align: center;
+  }
+  .container {
+    height: $containerDimentions;
+    margin-left: 45vw;
+    margin-top: 45vh;
+    width: $containerDimentions;
+    &.animation-2 {
+      animation: rotation 1s infinite;
+      transform: rotate(10deg);
+      .shape {
+        border-radius: $shapeDimentions/2;
+      }
+    }
+
+    .shape {
+      border-radius: 1px;
+      height: $shapeDimentions;
+      position: absolute;
+      width: $shapeDimentions;
+      &.shape1 {
+        background-color: $primary;
+        left: 0;
+      }
+      &.shape2 {
+        background-color: $success;
+        right: 0;
+      }
+      &.shape3 {
+        background-color: $warning;
+        bottom: 0;
+      }
+      &.shape4 {
+        background-color: $danger;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @for $i from 1 through 6 {
+    @for $j from 1 through 4 {
+      $duration: 0.5s;
+      $timing: ease;
+      $delay: 0s;
+      $direction: alternate;
+
+      $a: null;
+
+      @if $i==1 {
+        $a: 16px;
+      }
+
+      @else if $i==2 {
+        $a: 20px;
+      }
+
+      @else if $i==3 {
+        $a: 5px;
+      }
+
+      @else if $i==4 {
+        $a: 5px;
+        $duration: 0.3s;
+
+        @if $j == 2 or $j == 3 {
+          $delay: 0.3s;
+        }
+      }
+
+      @else if $i==5 {
+        $a: 15px;
+        $duration: 2s;
+        $direction: reverse;
+      }
+
+      @else if $i==6 {
+        $a: 18px;
+        $timing: linear;
+        $duration: 2s;
+        $direction: normal;
+      }
+
+      .animation-#{$i} {
+        .shape#{$j} {
+          animation: animation#{$i}shape#{$j} $duration $timing $delay infinite $direction;
+        }
+      }
+
+      @if $i == 5 or $i == 6 {
+        @keyframes animation#{$i}shape#{$j} {
+          0% {
+            transform: translate(0, 0);
+          }
+          25% {
+            @include customTranslate($j, 0, $a);
+          }
+          50% {
+            @include customTranslate($j, $a, $a);
+          }
+          75% {
+            @include customTranslate($j, $a, 0);
+          }
+        }
+      }
+
+      @else {
+        @keyframes animation#{$i}shape#{$j} {
+          from {
+            transform: translate(0, 0);
+          }
+          to {
+            @include customTranslate($j, $a, $a);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+    <g>
+        <g>
+            <text fill="#2084fc" font-family="OpenSans, Open Sans" font-size="60px" letter-spacing="-0.03em" transform="translate(-141 -181) translate(0 6) translate(188 244)">
+                <tspan x="-8.013" y="0">!</tspan>
+            </text>
+            <g fill="none" stroke="#2084fc" stroke-width="2px" transform="translate(-141 -181) translate(0 6) translate(141 175)">
+                <circle cx="47" cy="47" r="47" stroke="none"/>
+                <circle cx="47" cy="47" r="46"/>
+            </g>
+        </g>
+    </g>
+</svg>
