@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { fetchNotiUser, setDevice } from 'stores/user/store'
 import UserState from 'stores/user/state'
 import Routers from 'router'
-import Loading from 'components/Loding'
+import Loading from 'components/Loading'
 import Recycle from 'helper/recycle'
 
 const App: React.FunctionComponent = () => {
