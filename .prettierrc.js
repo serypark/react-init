@@ -1,7 +1,7 @@
 module.exports = {
   endOfLine: "auto",
   singleQuote: true,
-  semi: false,
+  semi: true,
   useTabs: false,
   usePrettierrc: false,
   jsxBracketSameLine: true,

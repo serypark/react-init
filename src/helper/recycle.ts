@@ -1,16 +1,16 @@
 const Recycle = {
   getDevice: (): string => {
-    let resultDevice = ''
+    let resultDevice = '';
     if (window.navigator.userAgent.indexOf('Android') !== -1) {
-      resultDevice = 'Android'
+      resultDevice = 'Android';
     } else if (window.navigator.userAgent.indexOf('iPhone') !== -1) {
-      resultDevice = 'iPhone'
+      resultDevice = 'iPhone';
     } else {
-      resultDevice = 'PC'
+      resultDevice = 'PC';
     }
 
-    return resultDevice
+    return resultDevice;
   }
-}
+};
 
-export default Recycle
+export default Recycle;

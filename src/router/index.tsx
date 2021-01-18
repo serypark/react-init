@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
+import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import NoMatchPage from 'pages/NoMatch'
+import NoMatchPage from 'pages/NoMatch';
 
 const router: React.FunctionComponent = () => {
   return (
@@ -24,11 +24,11 @@ const router: React.FunctionComponent = () => {
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
-          )
+          );
         }}
       />
     </Router>
-  )
-}
+  );
+};
 
-export default router
+export default router;

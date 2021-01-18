@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Loading: React.FunctionComponent = () => {
   return (
@@ -11,7 +11,7 @@ const Loading: React.FunctionComponent = () => {
       </div>
       <div className="text">확인중...</div>
     </div>
-  )
-}
+  );
+};
 
-export default Loading
+export default Loading;
