@@ -16,20 +16,11 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     '@typescript-eslint/no-use-before-define': [1],
     'no-restricted-syntax': 'off',
-    // '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'import/prefer-default-export': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx', '.scss'] }],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never'
-      }
-    ]
+    'import/extensions': ['off']
   },
   extends: [
     'prettier',
